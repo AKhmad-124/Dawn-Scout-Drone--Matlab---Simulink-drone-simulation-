@@ -1,0 +1,465 @@
+19<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/20/25||23:26:22" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.1.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem1" uid="Assem1" version="152">
+<AssemblyFile name="Assem1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="T-Motor AT2814 A.1-4" uid="T-Motor AT2814 A.1-4" entityUid="T-Motor AT2814 A.1*:*Default">
+<Transform>
+<Rotation>0 -0.70710678118654013 0.7071067811865549 -1.0000000000000002 0 0 0 -0.7071067811865549 -0.70710678118654025</Rotation>
+<Translation>-0.05138046762743112 0.12841452087688324 0.016411317123396361</Translation>
+</Transform>
+</Instance>
+<Instance name="T-Motor AT2814 A.1-3" uid="T-Motor AT2814 A.1-3" entityUid="T-Motor AT2814 A.1*:*Default">
+<Transform>
+<Rotation>0 -0.70710678118654835 0.70710678118654668 -1 0 0 0 -0.7071067811865468 -0.70710678118654835</Rotation>
+<Translation>0.31631505858957165 0.12841452087688324 0.0164113171233983</Translation>
+</Transform>
+</Instance>
+<Instance name="T-Motor AT2814 A.1-2" uid="T-Motor AT2814 A.1-2" entityUid="T-Motor AT2814 A.1*:*Default">
+<Transform>
+<Rotation>0 0.70710678118654358 -0.70710678118655179 -1 0 0 0 0.70710678118655168 0.70710678118654346</Rotation>
+<Translation>0.31631505858957099 0.12841452087688324 0.38410684334040374</Translation>
+</Transform>
+</Instance>
+<Instance name="T-Motor AT2814 A.1-1" uid="T-Motor AT2814 A.1-1" entityUid="T-Motor AT2814 A.1*:*Default">
+<Transform>
+<Rotation>0 0.70710678118654724 -0.70710678118654813 -1 0 0 0 0.70710678118654813 0.70710678118654724</Rotation>
+<Translation>-0.051380467627433063 0.12841452087688324 0.38410684334040307</Translation>
+</Transform>
+</Instance>
+<Instance name="drone body-1" uid="drone body-1" grounded="true" entityUid="drone body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.13246729548107478 0.11348270269506504 0.20025908023190067</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2^Assem1-1" uid="Part2^Assem1-1" grounded="true" entityUid="Part2^Assem1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="13 INCH PROPELLER-4" uid="13 INCH PROPELLER-4" entityUid="13 INCH PROPELLER*:*Default">
+<Transform>
+<Rotation>-0.17054129681151906 0 0.98535052954867053 0 1 0 -0.98535052954867053 0 -0.17054129681151906</Rotation>
+<Translation>0.31638089035358502 0.1673359096700669 0.016400413769272579</Translation>
+</Transform>
+</Instance>
+<Instance name="13 INCH PROPELLER-3" uid="13 INCH PROPELLER-3" entityUid="13 INCH PROPELLER*:*Default">
+<Transform>
+<Rotation>0.065208538693337842 0 0.99787165832158964 0 1 0 -0.99787165832158975 0 0.065208538693337814</Rotation>
+<Translation>0.31638161188537806 0.1673359096700669 0.38411167687963615</Translation>
+</Transform>
+</Instance>
+<Instance name="13 INCH PROPELLER-2" uid="13 INCH PROPELLER-2" entityUid="13 INCH PROPELLER*:*Default">
+<Transform>
+<Rotation>0.27878962244129635 0 0.96035219915353953 0 1 0 -0.96035219915353953 0 0.2787896224412964</Rotation>
+<Translation>-0.051316521133353096 0.1673359096700669 0.016430384115278276</Translation>
+</Transform>
+</Instance>
+<Instance name="13 INCH PROPELLER-1" uid="13 INCH PROPELLER-1" entityUid="13 INCH PROPELLER*:*Default">
+<Transform>
+<Rotation>0.00088010878566090883 -5.5369125112967702e-16 -0.99999961270418758 1.8442703380619449e-15 1 -5.5059504013424797e-16 0.99999961270418758 -1.6469729084711717e-15 0.00088010878566113088</Rotation>
+<Translation>-0.051447194862726087 0.16733590967006695 0.38410641865882006</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>-0.16284776310850235 0.011999999999999997 0.18384776310850234</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-1</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0.014849242404913615 -0.014849242404913643</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>-0.20484776310850239 0.011999999999999997 0.18384776310850234</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-1</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 -0.014849242404913643 0.014849242404913587</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-1</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0.20484776310850167 0.011999999999999997 0.18384776310850312</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-2</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0.014849242404913698 -0.014849242404913671</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0.16284776310850163 0.011999999999999997 0.1838477631085029</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-2</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 -0.014849242404913698 0.014849242404913587</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-2</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-3</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0.16284776310850235 0.011999999999999997 -0.18384776310850232</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-3</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0.014849242404913615 -0.014849242404913643</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0.20484776310850239 0.011999999999999997 -0.18384776310850234</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-3</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 -0.014849242404913671 0.014849242404913643</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999997 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-4</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>-0.20484776310850042 0.011999999999999997 -0.18384776310850451</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-4</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 0.014849242404913605 -0.01484924240491365</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>drone body-1</Uid>
+</InstancePath>
+<Position>-0.16284776310850038 0.011999999999999997 -0.18384776310850406</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-4</Uid>
+</InstancePath>
+<Position>0.0029318181818182021 -0.01484924240491366 0.014849242404913622</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-1</Uid>
+</InstancePath>
+<Position>-0.045161363636363638 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>13 INCH PROPELLER-1</Uid>
+</InstancePath>
+<Position>4.8340864455820309e-07 0.0049651148398116851 -6.6726835683851571e-05</Position>
+<Axis>1.968107589218212e-16 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-1</Uid>
+</InstancePath>
+<Position>-0.034790349786841507 5.0853843636122775e-09 -1.3292668410436193e-07</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>13 INCH PROPELLER-1</Uid>
+</InstancePath>
+<Position>4.8340864455820309e-07 -0.004131039006342152 -6.6726835683851571e-05</Position>
+<Axis>-1.968107589218212e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-4</Uid>
+</InstancePath>
+<Position>-0.045161363636363638 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>13 INCH PROPELLER-2</Uid>
+</InstancePath>
+<Position>4.8340864458595867e-07 0.0049651148398116851 -6.6726835683844632e-05</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-4</Uid>
+</InstancePath>
+<Position>-0.034790349786841507 5.0853843809595123e-09 -1.3292668413905639e-07</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>13 INCH PROPELLER-2</Uid>
+</InstancePath>
+<Position>4.8340864458595867e-07 -0.004131039006342152 -6.6726835683844632e-05</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-2</Uid>
+</InstancePath>
+<Position>-0.045161363636363638 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>13 INCH PROPELLER-3</Uid>
+</InstancePath>
+<Position>4.8340864461371424e-07 0.0049651148398116851 -6.6726835683872388e-05</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-2</Uid>
+</InstancePath>
+<Position>-0.034790349786841507 5.0853844468790044e-09 -1.3292668415987308e-07</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>13 INCH PROPELLER-3</Uid>
+</InstancePath>
+<Position>4.8340864461371424e-07 -0.004131039006342152 -6.6726835683872388e-05</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-3</Uid>
+</InstancePath>
+<Position>-0.045161363636363638 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>13 INCH PROPELLER-4</Uid>
+</InstancePath>
+<Position>4.8340864458595867e-07 0.0049651148398116851 -6.6726835683816876e-05</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>T-Motor AT2814 A.1-3</Uid>
+</InstancePath>
+<Position>-0.034790349786841507 5.0853844191234288e-09 -1.329266841321175e-07</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>13 INCH PROPELLER-4</Uid>
+</InstancePath>
+<Position>4.8340864458595867e-07 -0.004131039006342152 -6.6726835683816876e-05</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="13 INCH PROPELLER" uid="13 INCH PROPELLER*:*Default" version="486">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="13 INCH PROPELLER.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01379295510454372</Mass>
+<CenterOfMass>3.1475829424592989e-06 0.00064825040844997334 -0.00043372607050517792</CenterOfMass>
+<Inertia>3.6911777001128647e-07 0.00010196056678368187 0.000101893454405163 1.5786132904811202e-07 5.6660252632251918e-10 -2.366666414040908e-10</Inertia>
+</MassProperties>
+<GeometryFile name="13 INCH PROPELLER_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.67843137254901964" g="0.67843137254901964" b="0.72941176470588232" a="1"/>
+<Diffuse r="0.54274509803921578" g="0.54274509803921578" b="0.58352941176470585" a="1"/>
+<Specular r="0.20352941176470588" g="0.20352941176470588" b="0.21882352941176469" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2^Assem1" uid="Part2^Assem1*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Assem1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.5</Mass>
+<CenterOfMass>0.1324672954810748 0.10698270269506505 0.20025908023190067</CenterOfMass>
+<Inertia>0.00015670833333333319 0.00094733333333333236 0.00084270833333333257 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Part2-Assem1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="T-Motor AT2814 A.1" uid="T-Motor AT2814 A.1*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="T-Motor AT2814 A.1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040000000000000001</Mass>
+<CenterOfMass>-0.013471149117129783 2.3193752761307154e-09 -3.4486381262657022e-07</CenterOfMass>
+<Inertia>7.4370956705205298e-06 1.0739144290000224e-05 1.073919473080873e-05 -1.2257297591289316e-10 -3.5732037755289586e-10 2.5590526532260379e-11</Inertia>
+</MassProperties>
+<GeometryFile name="T-Motor AT2814 A.1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.8784313725490196" g="0.8784313725490196" b="0.8784313725490196" a="1"/>
+<Diffuse r="0.8784313725490196" g="0.8784313725490196" b="0.8784313725490196" a="1"/>
+<Specular r="0.4392156862745098" g="0.4392156862745098" b="0.4392156862745098" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="drone body" uid="drone body*:*Default" version="566">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="drone body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.80274000511454802</Mass>
+<CenterOfMass>2.1274388969262689e-06 0.0045523435712161772 -2.1264669421798044e-06</CenterOfMass>
+<Inertia>0.016225296018055984 0.032477156361266829 0.016373653681305098 -5.0360470872451443e-09 2.7204351201082066e-07 5.0393053605204257e-09</Inertia>
+</MassProperties>
+<GeometryFile name="drone body_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
