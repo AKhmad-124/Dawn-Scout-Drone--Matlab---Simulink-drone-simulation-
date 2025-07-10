@@ -9,4 +9,7 @@ Kt = 1/16.875;
 Kmt = 0.001*motor_directions;
 motor_friction = 0.00001*30/pi;
 motor_torque_max = 1000;
+
+visaxiswidth = 1; %cm
+visaxislength = 500;%cm
 %% 
