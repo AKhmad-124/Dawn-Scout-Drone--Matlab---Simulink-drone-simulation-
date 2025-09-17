@@ -1,4 +1,3 @@
-
 m_rpm = 600;
 g = 9.81;
 motor_directions  = [1 -1 1 -1];
@@ -12,4 +11,3 @@ motor_torque_max = 1000;
 
 visaxiswidth = 1; %cm
 visaxislength = 500;%cm
-%% 
